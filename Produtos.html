@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet"  href="css/estilo.css">
+       <script src="js/funcoes.js"></script>
+        <meta charset="UTF-8">
+        <title>Nossos Produtos </title>
+    </head>
+   <body>
+
+            <!--Inicio Menu-->
+            <nav class="menu">
+                <a href="index.html"><img width="100px"src="imagem/logo2.png"> </a>
+                <a href="index.html">  Página Inicial</a>
+                <a href="Produtos.html"> Nossos Produtos</a>
+                <a href="Nossas_lojas.html">Nossas Lojas</a>
+                <a href="Fale_conosco.html">Fale Conosco</a>
+         
+         </nav>
+            <!--Final do menu-->
+    
+    <h2>Nossos Produtos</h2>
+  
+    <hr>
+    
+    <aside class="categorias">
+      
+            <h3> Categorias </h3><br>
+
+             <ol>
+                <li onclick="exibir_todos()">Todos (12)</li>
+                <li onclick="exibir_categoria('geladeira')">Geladeira (4) </li>
+                <li onclick="exibir_categoria('lavaseca')"> Lava e Seca (4)</li>
+                <li onclick="exibir_categoria('fogoes')"> Fogões (4)</li>
+                <li onclick="exibir_categoria('forno')">Forno de Embutir (3)</li>
+              </ol>
+            </div>
+        </aside>
+           
+            
+         <div class="container">
+      		<div class="box_produto" id="geladeira" style="display: inline-block;">
+             <br>
+            <img src="imagem/gela3.jpg" width="150px" onclick="destaque1(this)">
+                <br> 
+                <p class="produto">Refrigerador Electrolux DFX41  <br> 2 Portas DC51X 475 Litros</p><br>
+                <hr>
+                <p class ="produto">De:<strike>  R$ 2.839,00 </strike> por:<br></p>
+                <p class ="valor_produto">R$ 2.600,00</p>
+                <p class="parcelas_produto"> até 10x de R$ 128,99 	sem juros</p><br>
+            </div>
+        <!-- Final Produto 1-->
+        
+        <!-- Produto 2-->
+        <div class="box_produto" id="geladeira" style="display: inline-block;" >
+            <img src="imagem/gel1.jpg" width="150px" onclick="destaque2 (this)">
+                <br>
+                <p class="produto"> Geladeira Eletrolux RE31 240L<br> L Branco 1 Porta 127V </p><br>
+                <hr>
+                <p class ="produto">De:<strike> R$ 1309,90 </strike>por:<br></p>
+                <p class ="valor_produto"> R$ 1.289,90</font><br>
+                <p class="parcelas_produto">até 10x de R$ 128,99 	sem juros</p><br>
+         </div>
+        <!-- Final Produto 2-->
+        
+                            
+        
+        <!-- Produto 3-->
+        <div class="box_produto" id="geladeira" style="display: inline-block;">
+         <img src="imagem/gel4.jpg" width="150px" onclick="destaque3 (this)">
+                <br>
+                 <p class="produto">  Geladeira Electrolux 2 Portas<br> DC35A 260L Branca 110V<br><br>
+                 <hr>
+                <p class ="produto"> De:<strike> R$ 1.800,90</strike>por:<br>
+                <p class ="valor_produto"> R$ 1.559,90</font><br>
+                <p class="parcelas_produto"> até 10x de R$155,99 sem juros</p><br>
+      </div>
+        <!-- Final Produto 3--> 
+    
+
+        <!-- Produto 4-->
+        <div class="box_produto" id="geladeira" style="display: inline-block;">
+            <img src="imagem/gel2.jpg" width="150px" onclick="destaque4 (this)">
+                <br>
+                 <p class="produto"> Geladeira Electrolux <br>Top Freezer TF42 382<br><br></p>
+                 <hr>
+                 <p class ="produto"> De:<strike> R$ 2.599,00</strike> por:<br></p>
+                 <p class ="valor_produto"> R$ 2.399,00<br></p>
+                 <p class="parcelas_produto">até 10x de R$239,90 sem juros</p><br>
+        </div>
+        <!-- Final Produto 4-->    
+  
+
+         <!--  Produto 5-->
+        <div class="box_produto" id="fogoes" style="display: inline-block;">
+        <br><br><br>
+            <img src="imagem/fog1.jpg" width="150px" onclick="destaque5 (this)">
+             <br>
+                <p class="produto"> Fogão de Embutir 4 Bocas Preto<br> Atlas Top Gourmet Glass Bivolt</p><br>
+                <hr>
+                <p class="produto">De:<strike> R$ 2.000,00</strike>por:<br></p>
+                <p class ="valor_produto">R$ 1.749,00<br></p>
+                <p class="parcelas_produto"> até 10x de R$ 189,90 sem juros</p>
+         </div>  
+        <!-- Final Produto 5-->                
+        
+        
+        <!-- Produto 6-->
+        <div class="box_produto" id="fogoes" style="display: inline-block;">
+        <br><br><br>
+            <img src="imagem/fog2.jpg" width="150px" onclick="destaque6 (this)">
+            <br>
+            <p class="produto"> Fogão de Embutir 4 Bocas Preto<br>Atlas Top Gourmet Glass Bivolt<br></p><br>
+            <hr>
+            <p class="produto"> De:<strike> R$ 2.100,00</strike>por:<br></p>
+            <p class ="valor_produto">    R$ 1.749,00</font><br></p>
+            <p class="parcelas_produto">     até 10x de R$ 174,90 sem juros</p>
+        </div>
+
+        <!-- Final Produto 6-->            
+        
+        <!-- Produto 7-->
+        
+        <div class="box_produto" id="fogoes" style="display: inline-block;">
+        <br><br><br>
+           <img src="imagem/fog3.jpg" width="150px" onclick="destaque7 (this)">
+           <br>
+           <p class="produto"> Fogão de Embutir 5 Bocas Preto <br> Atlas Top Gourmet Glass Bivolt </p><br>
+           <hr>
+           <p class="produto">    De:<strike> R$ 1.983,58</strike>por:</font><br>
+           <p class ="valor_produto">  R$ 1.899,00</font><br>
+           <p class="parcelas_produto">     até 10x de R$ 189,90 sem juros</font>
+           </div>
+
+        <!-- Final Produto 7-->            
+        
+        <!-- Produto 8-->
+        <div class="box_produto" id="fogoes" style="display: inline-block;">
+        <br><br><br>
+            <img src="imagem/fog4.jpg" width="150px" onclick="destaque8 (this)">
+            <br>
+            <p class="produto">Fogão de Piso 5 Bocas <br> Consul CFS5VAR - Bivolt</p><br>
+            <hr>
+            <p class="produto">  De:<strike> R$ 1.686,50</strike>por:<br></p>
+            <p class ="valor_produto">    R$ 1.439,10<br></p>
+            <p class="parcelas_produto">   ou até 10x 143,91 sem juros</p>
+         </div>
+
+        <!-- Final Produto 8-->            
+        
+        <!-- Produto 9-->
+       <div class="box_produto" id="lavaseca" style="display: inline-block;"> 
+            <br><br><br>
+                <img src="imagem/maq1.jpg" width="150px" onclick="destaque9 (this)">
+                <br>
+                <p class="produto"> Máquina de Lavar Electrolux <br>13Kg Branca LAC13 - 110V</p> <br>
+                <hr>
+                <p class="produto"> De:<strike> R$ 1.850,00</strike>por:<br></p>
+                <p class ="valor_produto">    R$ 1.659,00<br></p>
+                <p class="parcelas_produto">    até 10x de R$ 165,90 sem juros</p>
+        </div> 
+                  
+        
+   
+        <!--Produto 10-->
+        <div class="box_produto" id="lavaseca" style="display: inline-block;">
+         <br><br><br>
+            <img src="imagem/maq2.jpg" width="150px" onclick="destaque10 (this)">
+            <br>
+            <p class="produto">Máquina de Lavar Electrolux <br>16Kg Branca LAC16 - 110V </p><br>
+            <hr>
+            <p class="produto">  De:<strike> R$ 1.699,90</strike>por:<br></p>
+            <p class ="valor_produto"> R$ 1.694,90<br></p>
+            <p class="parcelas_produto">até 10x de R$ 169,49 sem juros</p>
+    </div>
+        
+         
+        
+        <!--Produto 11-->
+         <div class="box_produto" id="lavaseca" style="display: inline-block;"> 
+          <br><br><br>
+            <img src="imagem/maqu3.jpg" width="150px" onclick="destaque11 (this)">
+            <br>
+            <p class="produto">   Lavadora Consul 13Kg Maxi <br>Economia 220V CWE13ABBNA </p><br>
+             <hr>
+            <p class="produto">    De:<strike> R$ 2.000,00</strike>por:<br> </p>
+            <p class ="valor_produto">      R$ 1.849,00<br></p>
+            <p class="parcelas_produto">  até 10x de R$ 184,90 sem juros</p>
+        </div> 
+        <!-- Final do Produto 11-->        
+         
+        <!-- Produto 12 -->
+        <div class="box_produto" id="lavaseca" style="display: inline-block;">
+            <br><br><br>
+            <img src="imagem/maq4.jpg" width="150px" onclick="destaque12 (this)">
+            
+            <p class="produto">  Máquina de Lavar Consul 13Kg<br> Branca láila 110V <br></p><br>
+            <hr>
+            <p class="produto">De:<strike> R$ 1.780,90</strike>por:<br></p>
+            <p class ="valor_produto">  R$ 1.729,00<br></p>
+            <p class="parcelas_produto"> até 10x de R$ 172,90 sem juros</p>
+            </div>
+        <!--Final Produto 12-->        
+           
+        
+        <!-- Produto 13 -->
+        <div class="box_produto" id="lavaseca style="display: inline-block;">
+            <br><br><br>
+            <img src="imagem/maq4.jpg" width="150px">
+            <br>
+            <p class="produto"> Máquina de Lavar Consul 13Kg <br>Branca láila 110V </p><br>
+            <hr>
+            <p class="produto">  De:<strike> R$ 1.780,90</strike>por:<br></p>
+            <p class ="valor_produto">     R$ 1.729,00<br></p>
+            <p class="parcelas_produto">  até 10x de R$ 172,90 sem juros</p>
+        </div>
+        <!--Final Produto 13-->        
+         
+        
+        <!--Produto 14-->
+       <div class="box_produto" id="forno" style="display: inline-block;">
+            <br><br><br>
+            <img src="imagem/micro2.jpg" width ="150px">
+            
+            <p class="produto"> Micro-Ondas Brastemp BMS45CR 32 Litros<br>Inox 110V <br><br>
+            <hr>
+            <p class="produto">  De:<strike> R$ 780,00</strike>por:<br>
+            <p class ="valor_produto">  R$ 638,20<br>
+            <p class="parcelas_produto"> até 10x de R$ 63,82 sem juros
+        
+            </div>
+        <!--Final Produto 14-->        
+        
+        
+        <!--Produto 15-->
+        <div class="box_produto" id="forno" style="display: inline-block;">
+            <br><br><br>
+            <img src="imagem/micro3.jpg" width ="150px">
+            <p class="produto">  Micro-Ondas Brastemp Espelhado<br> Grill 32 Litros Inox 110V <br><br>
+            <hr>
+            <p class="produto">De:<strike> R$ 1.000,00</strike>por:</p>
+            <p class ="valor_produto"> R$ 899,00</p>
+            <p class="parcelas_produto">até 10x de R$ 89,90 sem juros</p>
+             </div>
+        <!--Final Produto 15--> 
+
+        
+        <!--Produto 16-->
+        <div class="box_produto" id="forno" style="display: inline-block;">
+            <br><br><br>
+            <img src="imagem/micro4.jpg" width ="150px">
+           <p class="produto"> Micro-Ondas De Embutir <br> litros BLT MO30 EIN Inox <br></p>
+             <br>
+          <hr>
+           <p class="produto">De:<strike> R$ 1.300,00</strike>por:</p>
+           <p class ="valor_produto">  R$ 1.198,50</p>
+           <p class="parcelas_produto"> até 10x de R$ 119,85 sem juros</p>
+        </div>
+        </section>                
+        
+    </table>
+    <br><Br><Br><br>
+    <br><Br><Br><br>
+    <br><Br><Br><br> 
+    
+               
+        <footer class="recode"> 
+            <p class="formas_pagamento"> Formas de pagamento</p>
+        <img src="imagem/logop.jpg" alt ="formas de pagamento" height="80"></p>
+            &copy; Recode 2020 
+
+        </footer>
+                           
+        
+               
+        
+
+   
+
+
+   </body>
+
+</html>
